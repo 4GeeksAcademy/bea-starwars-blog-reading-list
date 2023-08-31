@@ -24,11 +24,7 @@ export const NavbarMenu = () => {
             />
           </Link>
         </Navbar.Brand>
-        <Nav className="ml-auto">
-          <Link className="nav-link" to="/">
-            Home
-          </Link>
-        </Nav>
+
         <DropdownButton
           id="dropdown-basic-button"
           title={`Favorites (${store.favorites.length})`}
